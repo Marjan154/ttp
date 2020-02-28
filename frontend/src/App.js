@@ -29,6 +29,7 @@ function App() {
               component={MyTransactions}
             />
             <Route exact path="/profile/:email" component={Profile} />
+            <Route component={Login} />
           </Switch>
         </Router>
       </div>
