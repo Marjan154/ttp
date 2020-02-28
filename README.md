@@ -1,3 +1,15 @@
+# Responsive Stock Portfolio Web App
+
+Built a responsive web app that let's users create accounts and search and buy stocks, view the statuses of their stocks and, and view transaction history. 
+
+The frontend is created in ReactJS and the backend is in NodeJS, using express, sequelize and postgreSQL for the database.
+The hosted version of this project can be found [here](https://floating-bastion-36036.herokuapp.com/).
+
+You must have npm to run this project.
+
+To run:
+### `npm i && npm start`
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
