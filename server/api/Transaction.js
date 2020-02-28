@@ -31,7 +31,6 @@ router.get("/transactions", (req, res) => {
 router.post("/transactions", async function(req, res) {
   const { symbol, shares, email, cost } = req.body;
   const date = Date.now();
-  console.log("INFOOO", symbol, shares, email, cost);
   try {
     let user = await Users.findOne({ where: { email } });
     try {
